@@ -30,6 +30,9 @@
   <!-- Theme Styles -->
   <link href="css/styles.css" rel="stylesheet">
   <!-- Theme Styles -->
+    <!-- Custom css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
   <!-- / CSS Files
   ========================================================= -->
 
@@ -114,7 +117,7 @@
   <!-- Other Buttons -->
   <div class="side-menu-buttons">
     <a href="#" class="btn btn-side-menu"><i class="fa fa-download"></i> Descargar Curriculum Vitae</a>
-    <a href="#" class="btn btn-side-menu"><i class="fa fa-envelope-o"></i> Envíame un mensaje</a>
+    <a href="#contact" class="btn btn-side-menu"><i class="fa fa-envelope-o"></i> Envíame un mensaje</a>
   </div>
   <!-- /Other Buttons-->
 </div>
@@ -148,7 +151,7 @@
           <a href="#" class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Descargar Curriculum Vitae</span></a>
           <!-- /Download Resume Button -->
           <!-- Mail Button -->
-          <a href="#" class="btn btn-default btn-top-message"><i class="fa fa-envelope-o"></i><span class="btn-hide-text">Envíame un mensaje</span></a>
+          <a href="#contact" class="btn btn-default btn-top-message"><i class="fa fa-envelope-o"></i><span class="btn-hide-text">Envíame un mensaje</span></a>
           <!-- /Mail Button -->
         </div>
       </div>
@@ -1368,7 +1371,7 @@
                   <div class="row">
                     <div class="col-md-8 contact-form-wrapper">
                       <!-- Contact form -->
-                      <form id="contactForm" method="post" class="form" role="form">
+                      <form id="contactForm" method="post" class="form" role="form" action="http://formspree.io/rsaavedra@clov3rlabs.com">
                         <!-- Form Field -->
                         <div class="form-group">
                           <input class="form-control required" id="name" name="name" placeholder="Nombre" type="text" required />
@@ -1380,9 +1383,9 @@
                         </div>
                         <!-- /Form Field -->
                         <!-- Form Field -->
-                        <div class="form-group">
-                          <input class="form-control required" id="subject" type="text" name="subject" placeholder="Asunto" required>
-                        </div>
+                        <!--<div class="form-group">
+                          <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto">
+                        </div>-->
                         <!-- /Form Field -->
                         <!-- Form Field -->
                         <div class="form-group">
@@ -1535,6 +1538,9 @@
 <!-- Cross-browser -->
 <script src="vendor/cross-browser.js"></script>
 <!-- /Cross-browser -->
+<!-- toastr -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<!-- /toastr -->
 <!-- Configurations -->
 <script src="js/main.js"></script>
 <!-- /Configurations -->

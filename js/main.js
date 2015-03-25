@@ -2,6 +2,34 @@
 (function($) {
   "use strict";
 
+    var
+        data = {},
+        $form = $('#contactForm'),
+        $name = $('#name'),
+        $replyTo = $('#email'),
+        $message = $('#message'),
+        action = $form.prop('action');
+
+    $form.submit(function () {
+        data.name = $name.val();
+        data.replyTo = $replyTo.val();
+        data.message = $message.val();
+        $.ajax({
+            url: action,
+            method: 'POST',
+            data: data,
+            dataType: 'json',
+            success: function () {
+                toastr.success('Muchas gracias, tu mensaje ha sido enviado.');
+                $message.val('');
+                $name.val('');
+                $replyTo.val('');
+            }
+        });
+        event.preventDefault();
+    });
+
+
 //Run on Document Ready
 $(document).ready(function(){  
 
