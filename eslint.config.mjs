@@ -10,11 +10,6 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    // Legacy site, removed at launch (Paso 5).
-    "css/**",
-    "js/**",
-    "vendor/**",
-    "php/**",
   ]),
 ]);
 

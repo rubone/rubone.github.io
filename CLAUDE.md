@@ -1,10 +1,10 @@
 # rubensaavedra.net — Redesign
 
-Personal portfolio of Rubén Saavedra (full-stack software engineer, 10+ years). We are replacing the legacy static site in this repo with a new Next.js site.
+Personal portfolio of Rubén Saavedra (full-stack software engineer, 10+ years). The legacy static site was replaced by this Next.js site at launch (tag `v1-legacy` keeps the old one).
 
 - **Plan:** `docs/PLAN.md` — work through it step by step and tick the checkboxes as tasks are done.
 - **Design reference:** `docs/design/option-a.html` (Option A · Clean Light). Open it in a browser; match its layout, spacing, type and colors.
-- **Branch:** `feature/redesign`. Do not touch `main` until the launch step.
+- **Branches:** `main` is production (every push deploys via GitHub Actions). Work on feature branches and merge to `main` to publish.
 
 ## Stack & decisions
 
@@ -32,9 +32,9 @@ Personal portfolio of Rubén Saavedra (full-stack software engineer, 10+ years).
 | Container | max-width 1160px, side padding 32px |
 | Buttons | pill (radius 999px), 15px × 26px padding |
 
-## Legacy site (to be replaced)
+## Legacy site
 
-`index.html` (ES), `index-en.html` (EN), `css/`, `js/`, `vendor/`, `php/`. Reuse content and assets from `img/` and `cv/CURRICULO_VITAE.pdf`. Remove legacy files only in the launch step.
+Removed at launch; the old site is preserved under the git tag `v1-legacy`. `public/index-en.html` redirects the old English URL to `/`.
 
 ## Conventions
 

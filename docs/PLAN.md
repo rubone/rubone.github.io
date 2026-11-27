@@ -65,8 +65,8 @@ Rama de trabajo: `feature/redesign`.
 - [ ] Merge de `feature/redesign` a `main`
 - [ ] Settings → Pages → Source: **GitHub Actions**
 - [ ] Verificar `https://rubensaavedra.net` y `www`
-- [ ] Redirigir `index-en.html` a la ruta nueva en inglés
-- [ ] Borrar archivos viejos (`php/`, `vendor/`, `css/`, `js/`)
+- [x] Redirigir `index-en.html` a la ruta nueva en inglés (`public/index-en.html` → `/`)
+- [x] Borrar archivos viejos (`php/`, `vendor/`, `css/`, `js/`, más `index*.html`, `img/`, `cv/`, favicons y `CNAME` de la raíz)
 
 ## Contenido que falta reunir
 
