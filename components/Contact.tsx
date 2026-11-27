@@ -1,8 +1,8 @@
 import type { SiteContent } from "@/content/types";
 
-type Props = SiteContent["contact"];
+type Props = SiteContent["contact"] & { opensInNewTab: string };
 
-export function Contact({ title, lead, email, links }: Props) {
+export function Contact({ title, lead, email, links, opensInNewTab }: Props) {
   return (
     <section
       id="contact"
@@ -28,6 +28,7 @@ export function Contact({ title, lead, email, links }: Props) {
             className="text-on-dark hover:text-white"
           >
             {link.label}
+            <span className="sr-only"> ({opensInNewTab})</span>
           </a>
         ))}
       </div>

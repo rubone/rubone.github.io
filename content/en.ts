@@ -3,6 +3,18 @@ import type { SiteContent } from "./types";
 // Content from the updated resume (public/cv/Ruben_Saavedra_Resume.pdf).
 // [Bracketed] values are still missing — see "Contenido que falta reunir" in docs/PLAN.md.
 export const en: SiteContent = {
+  locale: "en",
+  meta: {
+    title: "Rubén Saavedra — Full-stack Software Engineer",
+    description:
+      "Full-stack engineer with 10+ years shipping .NET backends, React frontends and mobile apps.",
+  },
+  ui: {
+    skipToContent: "Skip to content",
+    navLabel: "Main",
+    languageSwitch: { label: "ES", ariaLabel: "ES — Ver el sitio en español" },
+    opensInNewTab: "opens in a new tab",
+  },
   name: "Rubén Saavedra",
   initials: "RS",
   nav: {

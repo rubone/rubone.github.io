@@ -1,3 +1,5 @@
+import type { Locale } from "@/lib/i18n";
+
 export type NavLink = { label: string; href: string };
 
 export type StackGroup = { title: string; items: string[] };
@@ -30,6 +32,16 @@ export type Certification = {
 };
 
 export type SiteContent = {
+  locale: Locale;
+  meta: { title: string; description: string };
+  ui: {
+    skipToContent: string;
+    navLabel: string;
+    /** Link to the other language version. */
+    languageSwitch: { label: string; ariaLabel: string };
+    /** Screen-reader hint appended to links that open in a new tab. */
+    opensInNewTab: string;
+  };
   name: string;
   initials: string;
   nav: { links: NavLink[]; cta: NavLink };

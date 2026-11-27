@@ -1,8 +1,15 @@
 import type { SiteContent } from "@/content/types";
 
-type Props = SiteContent["certifications"];
+type Props = SiteContent["certifications"] & { opensInNewTab: string };
 
-export function Certifications({ title, allLink, verifyLabel, logoPlaceholder, items }: Props) {
+export function Certifications({
+  title,
+  allLink,
+  verifyLabel,
+  logoPlaceholder,
+  items,
+  opensInNewTab,
+}: Props) {
   return (
     <section id="certifications" className="flex flex-col gap-8 border-t border-line pt-12 pb-24">
       <div className="flex flex-wrap items-end justify-between gap-4">
@@ -14,6 +21,7 @@ export function Certifications({ title, allLink, verifyLabel, logoPlaceholder, i
           className="text-[15px] font-medium text-accent hover:text-accent-hover"
         >
           {allLink.label}
+          <span className="sr-only"> ({opensInNewTab})</span>
         </a>
       </div>
       <ul className="m-0 grid list-none grid-cols-[repeat(auto-fit,minmax(min(250px,100%),1fr))] gap-4 p-0">
@@ -32,7 +40,7 @@ export function Certifications({ title, allLink, verifyLabel, logoPlaceholder, i
                 className="size-20 object-contain"
               />
             ) : (
-              <div className="flex size-20 items-center justify-center rounded-[14px] bg-placeholder text-[11px] text-subtle">
+              <div className="flex size-20 items-center justify-center rounded-[14px] bg-placeholder text-[11px] text-muted">
                 {logoPlaceholder}
               </div>
             )}
@@ -49,7 +57,10 @@ export function Certifications({ title, allLink, verifyLabel, logoPlaceholder, i
               className="mt-auto text-sm font-medium text-accent hover:text-accent-hover"
             >
               {verifyLabel}
-              <span className="sr-only"> — {cert.name}</span>
+              <span className="sr-only">
+                {" "}
+                — {cert.name} ({opensInNewTab})
+              </span>
             </a>
           </li>
         ))}

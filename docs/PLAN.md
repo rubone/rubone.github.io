@@ -48,10 +48,10 @@ Rama de trabajo: `feature/redesign`.
 
 ### Paso 3 — Pulido: idiomas, SEO y accesibilidad
 
-- [ ] Versión ES/EN con selector de idioma
-- [ ] Metadata: título, descripción, Open Graph
-- [ ] `sitemap.xml`, `robots.txt`, favicon nuevo
-- [ ] Contraste, navegación con teclado y Lighthouse (meta: 90+)
+- [x] Versión ES/EN con selector de idioma (EN en `/`, ES en `/es/`)
+- [x] Metadata: título, descripción, Open Graph (imagen por idioma; plantilla en `docs/design/social-images.html`)
+- [x] `sitemap.xml`, `robots.txt`, favicon nuevo
+- [x] Contraste, navegación con teclado y Lighthouse (meta: 90+) → móvil 97 / escritorio 100 en rendimiento; 100 en accesibilidad, buenas prácticas y SEO
 
 ### Paso 4 — GitHub Action de deploy
 
@@ -76,4 +76,4 @@ Rama de trabajo: `feature/redesign`.
 - [x] Certificaciones: nombre, emisor, año, logo y URL de verificación (Credly, Microsoft Learn, etc.)
 - [ ] Foto actualizada (o usar `img/me.jpg`)
 - [x] CV actualizado en PDF
-- [ ] ¿Bilingüe desde el lanzamiento o solo inglés al inicio?
+- [x] ¿Bilingüe desde el lanzamiento o solo inglés al inicio? → bilingüe

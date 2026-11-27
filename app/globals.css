@@ -65,3 +65,19 @@ body {
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
+
+/* Keyboard focus: visible ring on light and dark surfaces */
+:where(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+#contact :where(a):focus-visible {
+  outline-color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,14 @@
+import type { MetadataRoute } from "next";
+import { SITE_URL, localePath, locales } from "@/lib/i18n";
+
+export const dynamic = "force-static";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const languages = Object.fromEntries(locales.map((l) => [l, SITE_URL + localePath[l]]));
+  return locales.map((locale) => ({
+    url: SITE_URL + localePath[locale],
+    changeFrequency: "monthly",
+    priority: locale === "en" ? 1 : 0.8,
+    alternates: { languages },
+  }));
+}
