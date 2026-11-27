@@ -31,7 +31,7 @@ export const es: SiteContent = {
     lead: "Ingeniero full-stack con más de 10 años entregando backends en .NET, frontends en React y apps móviles — desde el esquema de la base de datos hasta el último píxel.",
     primaryCta: { label: "Ver mis proyectos", href: "#work" },
     secondaryCta: { label: "Descargar CV", href: "/cv/Ruben_Saavedra_Resume.pdf" },
-    photo: { src: null, alt: "Rubén Saavedra", placeholder: "[Tu foto]" },
+    photo: { src: "/img/ruben-saavedra.jpg", alt: "Rubén Saavedra", placeholder: "[Tu foto]" },
   },
   stack: {
     title: "Con qué trabajo",
@@ -140,7 +140,7 @@ export const es: SiteContent = {
     title: "Certificaciones",
     allLink: {
       label: "Ver todas las credenciales →",
-      href: "https://www.linkedin.com/in/rubone/details/certifications/",
+      href: "https://www.credly.com/users/ruben-saavedra-prado/badges/credly",
     },
     verifyLabel: "Verificar credencial ↗",
     logoPlaceholder: "[Logo]",

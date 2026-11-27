@@ -38,7 +38,7 @@ Rama de trabajo: `feature/redesign`.
 ### Paso 2 — Contenido real
 
 - [x] Extraer textos, experiencia y proyectos de `index.html` e `index-en.html` (experiencia desde 2008, sin MARENA)
-- [x] Reutilizar `img/` (capturas) y `cv/CURRICULO_VITAE.pdf` → copiados a `public/` (la foto queda como marcador hasta tener una nueva)
+- [x] Reutilizar `img/` (capturas) y `cv/CURRICULO_VITAE.pdf` → copiados a `public/`
 - [ ] Escribir bio, descripciones de proyectos y logros por puesto
 - [x] Certificaciones reales: nombre, emisor, año, logo y enlace de verificación
 - [x] Enlaces reales: email, GitHub, LinkedIn, CV
@@ -74,6 +74,6 @@ Rama de trabajo: `feature/redesign`.
 - [x] Experiencia: empresas, puestos, años y un logro por puesto
 - [ ] 3–6 proyectos: nombre, una línea, stack, captura y enlace
 - [x] Certificaciones: nombre, emisor, año, logo y URL de verificación (Credly, Microsoft Learn, etc.)
-- [ ] Foto actualizada (o usar `img/me.jpg`)
+- [x] Foto actualizada → `public/img/ruben-saavedra.jpg`
 - [x] CV actualizado en PDF
 - [x] ¿Bilingüe desde el lanzamiento o solo inglés al inicio? → bilingüe

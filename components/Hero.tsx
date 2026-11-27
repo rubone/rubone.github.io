@@ -34,7 +34,7 @@ export function Hero({ badge, title, lead, primaryCta, secondaryCta, photo }: Pr
             alt={photo.alt}
             width={300}
             height={360}
-            className="h-[360px] w-[300px] max-w-full rounded-photo border border-placeholder-line object-cover"
+            className="h-[360px] w-[300px] max-w-full rounded-photo border border-placeholder-line object-cover grayscale contrast-125 brightness-105"
           />
         ) : (
           <div className="flex h-[360px] w-[300px] max-w-full items-center justify-center rounded-photo border border-placeholder-line bg-placeholder text-sm text-muted">
