@@ -14,7 +14,7 @@ Seleccionada: **A · Clean Light** (referencia: `docs/design/option-a.html`).
 | B · Dark Engineer | Modo oscuro, JetBrains Mono, acento lima, tarjeta de código C# en el hero, bento grid | Personalidad de developer | Muy técnico para clientes no-técnicos | Descartada |
 | C · Editorial | Tipografía gigante (Bricolage Grotesque), reglas negras tipo revista, acento naranja | La más distintiva | Depende de buenas fotos y capturas | Descartada |
 
-Secciones de la opción A: navegación · hero con foto y badge "Open to new projects" · stack · trabajos seleccionados · experiencia · contacto · footer.
+Secciones de la opción A: navegación · hero con foto y badge "Open to new projects" · stack · trabajos seleccionados · experiencia · certificaciones · contacto · footer.
 
 ## Plan por pasos
 
@@ -28,17 +28,19 @@ Rama de trabajo: `feature/redesign`.
 
 ### Paso 1 — Maqueta con texto de prueba
 
-- [ ] Crear proyecto Next.js + TypeScript + Tailwind en la rama `feature/redesign`
-- [ ] Configurar `output: 'export'`, fuentes y tokens de color de la opción A
-- [ ] Componentes: Header, Hero, Stack, Work, Experience, Contact, Footer
-- [ ] Responsive: probar en 375 px, 768 px y 1440 px
-- [ ] `npm run build` genera `out/` sin errores
+- [x] Crear proyecto Next.js + TypeScript + Tailwind en la rama `feature/redesign`
+- [x] Configurar `output: 'export'`, fuentes y tokens de color de la opción A
+- [x] Componentes: Header, Hero, Stack, Work, Experience, Contact, Footer
+- [x] Responsive: probar en 375 px, 768 px y 1440 px
+- [x] `npm run build` genera `out/` sin errores
+- [x] Componente Certifications (entre Experience y Contact, ver `docs/design/option-a.html`) + enlace en el menú
 
 ### Paso 2 — Contenido real
 
 - [ ] Extraer textos, experiencia y proyectos de `index.html` e `index-en.html`
 - [ ] Reutilizar `img/` (foto, capturas) y `cv/CURRICULO_VITAE.pdf`
 - [ ] Escribir bio, descripciones de proyectos y logros por puesto
+- [ ] Certificaciones reales: nombre, emisor, año, logo y enlace de verificación
 - [ ] Enlaces reales: email, GitHub, LinkedIn, CV
 - [ ] Reemplazar el formulario PHP por `mailto:` o Formspree
 
@@ -69,6 +71,7 @@ Rama de trabajo: `feature/redesign`.
 - [ ] Email de contacto, URL de GitHub y LinkedIn
 - [ ] Experiencia: empresas, puestos, años y un logro por puesto
 - [ ] 3–6 proyectos: nombre, una línea, stack, captura y enlace
+- [ ] Certificaciones: nombre, emisor, año, logo y URL de verificación (Credly, Microsoft Learn, etc.)
 - [ ] Foto actualizada (o usar `img/me.jpg`)
 - [ ] CV actualizado en PDF
 - [ ] ¿Bilingüe desde el lanzamiento o solo inglés al inicio?

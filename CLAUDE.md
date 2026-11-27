@@ -38,6 +38,6 @@ Personal portfolio of Rubén Saavedra (full-stack software engineer, 10+ years).
 
 ## Conventions
 
-- Keep components small: Header, Hero, Stack, Work, Experience, Contact, Footer.
+- Keep components small: Header, Hero, Stack, Work, Experience, Certifications, Contact, Footer.
 - Responsive check at 375px, 768px and 1440px.
 - `npm run build` must pass before any commit.
