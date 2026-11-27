@@ -20,7 +20,13 @@ export function Contact({ title, lead, email, links }: Props) {
       </a>
       <div className="flex gap-6 text-[15px]">
         {links.map((link) => (
-          <a key={link.label} href={link.href} className="text-on-dark hover:text-white">
+          <a
+            key={link.label}
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-on-dark hover:text-white"
+          >
             {link.label}
           </a>
         ))}

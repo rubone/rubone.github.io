@@ -9,7 +9,7 @@ export function Work({ title, projects }: Props) {
       <div className="grid grid-cols-[repeat(auto-fit,minmax(min(340px,100%),1fr))] gap-6">
         {projects.map((project) => (
           <a
-            key={project.name}
+            key={project.href}
             href={project.href}
             className="group flex flex-col gap-[18px] text-ink"
           >

@@ -37,12 +37,14 @@ Rama de trabajo: `feature/redesign`.
 
 ### Paso 2 — Contenido real
 
-- [ ] Extraer textos, experiencia y proyectos de `index.html` e `index-en.html`
-- [ ] Reutilizar `img/` (foto, capturas) y `cv/CURRICULO_VITAE.pdf`
+- [x] Extraer textos, experiencia y proyectos de `index.html` e `index-en.html` (experiencia desde 2008, sin MARENA)
+- [x] Reutilizar `img/` (capturas) y `cv/CURRICULO_VITAE.pdf` → copiados a `public/` (la foto queda como marcador hasta tener una nueva)
 - [ ] Escribir bio, descripciones de proyectos y logros por puesto
-- [ ] Certificaciones reales: nombre, emisor, año, logo y enlace de verificación
-- [ ] Enlaces reales: email, GitHub, LinkedIn, CV
-- [ ] Reemplazar el formulario PHP por `mailto:` o Formspree
+- [x] Certificaciones reales: nombre, emisor, año, logo y enlace de verificación
+- [x] Enlaces reales: email, GitHub, LinkedIn, CV
+- [x] Reemplazar el formulario PHP por `mailto:` o Formspree (`mailto:`)
+- [ ] Completar "Selected work" con proyectos reales: nombre, una línea, stack, captura y enlace
+- [x] Experiencia reciente según el CV actualizado (`public/cv/Ruben_Saavedra_Resume.pdf`)
 
 ### Paso 3 — Pulido: idiomas, SEO y accesibilidad
 
@@ -68,10 +70,10 @@ Rama de trabajo: `feature/redesign`.
 
 ## Contenido que falta reunir
 
-- [ ] Email de contacto, URL de GitHub y LinkedIn
-- [ ] Experiencia: empresas, puestos, años y un logro por puesto
+- [x] Email de contacto, URL de GitHub y LinkedIn
+- [x] Experiencia: empresas, puestos, años y un logro por puesto
 - [ ] 3–6 proyectos: nombre, una línea, stack, captura y enlace
-- [ ] Certificaciones: nombre, emisor, año, logo y URL de verificación (Credly, Microsoft Learn, etc.)
+- [x] Certificaciones: nombre, emisor, año, logo y URL de verificación (Credly, Microsoft Learn, etc.)
 - [ ] Foto actualizada (o usar `img/me.jpg`)
-- [ ] CV actualizado en PDF
+- [x] CV actualizado en PDF
 - [ ] ¿Bilingüe desde el lanzamiento o solo inglés al inicio?
