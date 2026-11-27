@@ -55,8 +55,8 @@ Rama de trabajo: `feature/redesign`.
 
 ### Paso 4 — GitHub Action de deploy
 
-- [ ] `.github/workflows/deploy.yml`: instalar → `next build` → subir `out/` → `actions/deploy-pages`
-- [ ] `public/.nojekyll` y `public/CNAME` con `rubensaavedra.net`
+- [x] `.github/workflows/deploy.yml`: instalar → lint → `next build` → subir `out/` → `actions/deploy-pages` (cada push compila; solo `main` publica)
+- [x] `public/.nojekyll` y `public/CNAME` con `rubensaavedra.net`
 - [ ] Probar el workflow antes del lanzamiento
 
 ### Paso 5 — Lanzamiento
