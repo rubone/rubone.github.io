@@ -1,6 +1,6 @@
 # rubensaavedra.net — Redesign
 
-Personal portfolio of Rubén Saavedra (full-stack software engineer, 10+ years). The legacy static site was replaced by this Next.js site at launch (tag `v1-legacy` keeps the old one).
+Personal portfolio of Rubén Saavedra (full-stack software engineer). The legacy static site was replaced by this Next.js site at launch (tag `v1-legacy` keeps the old one).
 
 - **Plan:** `docs/PLAN.md` — work through it step by step and tick the checkboxes as tasks are done.
 - **Design reference:** `docs/design/option-a.html` (Option A · Clean Light). Open it in a browser; match its layout, spacing, type and colors.

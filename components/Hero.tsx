@@ -20,6 +20,7 @@ export function Hero({ badge, title, lead, primaryCta, secondaryCta, photo }: Pr
           </a>
           <a
             href={secondaryCta.href}
+            download={secondaryCta.download || undefined}
             className="btn border border-line-strong text-ink hover:border-ink"
           >
             {secondaryCta.label}
