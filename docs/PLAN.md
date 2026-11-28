@@ -61,10 +61,10 @@ Rama de trabajo: `feature/redesign`.
 
 ### Paso 5 — Lanzamiento
 
-- [ ] Tag `v1-legacy` del sitio actual como respaldo
-- [ ] Merge de `feature/redesign` a `main`
-- [ ] Settings → Pages → Source: **GitHub Actions**
-- [ ] Verificar `https://rubensaavedra.net` y `www`
+- [x] Tag `v1-legacy` del sitio actual como respaldo
+- [x] Merge de `feature/redesign` a `main` (PR #1)
+- [x] Settings → Pages → Source: **GitHub Actions**
+- [x] Verificar `https://rubensaavedra.net` y `www` (www y http redirigen a https://rubensaavedra.net)
 - [x] Redirigir `index-en.html` a la ruta nueva en inglés (`public/index-en.html` → `/`)
 - [x] Borrar archivos viejos (`php/`, `vendor/`, `css/`, `js/`, más `index*.html`, `img/`, `cv/`, favicons y `CNAME` de la raíz)
 
