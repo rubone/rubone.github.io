@@ -30,7 +30,7 @@ export const es: SiteContent = {
     title: "Construyo software confiable, de principio a fin.",
     lead: "Ingeniero full-stack que entrega backends en .NET, frontends en React y apps móviles rápidos, confiables y fáciles de mantener.",
     primaryCta: { label: "Ver mis proyectos", href: "#work" },
-    secondaryCta: { label: "Descargar CV", href: "/cv/Ruben_Saavedra_Resume.pdf" },
+    secondaryCta: { label: "Descargar CV", href: "/cv/Ruben_Saavedra_Resume.pdf", download: true },
     photo: { src: "/img/ruben-saavedra.jpg", alt: "Rubén Saavedra", placeholder: "[Tu foto]" },
   },
   stack: {

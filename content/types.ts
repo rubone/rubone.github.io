@@ -50,7 +50,8 @@ export type SiteContent = {
     title: string;
     lead: string;
     primaryCta: NavLink;
-    secondaryCta: NavLink;
+    /** `download: true` saves the file instead of navigating away (used for the CV). */
+    secondaryCta: NavLink & { download?: boolean };
     photo: { src: string | null; alt: string; placeholder: string };
   };
   stack: { title: string; lead: string; groups: StackGroup[] };

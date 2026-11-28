@@ -31,7 +31,7 @@ export const en: SiteContent = {
     title: "I build reliable software, end to end.",
     lead: "Full-stack engineer shipping .NET backends, React frontends and mobile apps that are fast, reliable and easy to maintain.",
     primaryCta: { label: "View my work", href: "#work" },
-    secondaryCta: { label: "Download CV", href: "/cv/Ruben_Saavedra_Resume.pdf" },
+    secondaryCta: { label: "Download CV", href: "/cv/Ruben_Saavedra_Resume.pdf", download: true },
     photo: { src: "/img/ruben-saavedra.jpg", alt: "Rubén Saavedra", placeholder: "[Your photo]" },
   },
   stack: {
