@@ -6,7 +6,7 @@ export const es: SiteContent = {
   meta: {
     title: "Rubén Saavedra — Ingeniero de software full-stack",
     description:
-      "Ingeniero full-stack con más de 10 años creando backends en .NET, frontends en React y apps móviles.",
+      "Ingeniero full-stack que entrega backends en .NET, frontends en React y apps móviles.",
   },
   ui: {
     skipToContent: "Saltar al contenido",
@@ -28,7 +28,7 @@ export const es: SiteContent = {
   hero: {
     badge: "Disponible para nuevos proyectos",
     title: "Construyo software confiable, de principio a fin.",
-    lead: "Ingeniero full-stack con más de 10 años entregando backends en .NET, frontends en React y apps móviles — desde el esquema de la base de datos hasta el último píxel.",
+    lead: "Ingeniero full-stack que entrega backends en .NET, frontends en React y apps móviles rápidos, confiables y fáciles de mantener.",
     primaryCta: { label: "Ver mis proyectos", href: "#work" },
     secondaryCta: { label: "Descargar CV", href: "/cv/Ruben_Saavedra_Resume.pdf" },
     photo: { src: "/img/ruben-saavedra.jpg", alt: "Rubén Saavedra", placeholder: "[Tu foto]" },
@@ -39,9 +39,9 @@ export const es: SiteContent = {
     groups: [
       {
         title: "Backend",
-        items: [".NET 8 y 10", "ASP.NET Core", "CQRS / MediatR", "EF Core", "APIs REST", "Node.js + TypeScript"],
+        items: [".NET 8 y 10", "ASP.NET Core", "APIs REST", "Node.js + TypeScript"],
       },
-      { title: "Frontend", items: ["React", "TypeScript", "React Query", "Angular"] },
+      { title: "Frontend", items: ["React", "TypeScript", "JavaScript", "Angular", "Vue"] },
       { title: "Móvil", items: ["Android (Kotlin, Java)", "Flutter"] },
       { title: "Datos y nube", items: ["PostgreSQL", "SQL Server", "Azure", "Docker"] },
     ],
